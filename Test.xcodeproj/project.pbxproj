@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85027E9615A9D833003C535A /* sss.m in Sources */ = {isa = PBXBuildFile; fileRef = 85027E9515A9D833003C535A /* sss.m */; };
 		8509FFCD15A9C0990089C5BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509FFCC15A9C0990089C5BB /* UIKit.framework */; };
 		8509FFCF15A9C0990089C5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509FFCE15A9C0990089C5BB /* Foundation.framework */; };
 		8509FFD115A9C0990089C5BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8509FFD015A9C0990089C5BB /* CoreGraphics.framework */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85027E9415A9D833003C535A /* sss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sss.h; sourceTree = "<group>"; };
+		85027E9515A9D833003C535A /* sss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sss.m; sourceTree = "<group>"; };
 		8509FFC815A9C0990089C5BB /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8509FFCC15A9C0990089C5BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8509FFCE15A9C0990089C5BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,8 @@
 			children = (
 				8509FFDB15A9C0990089C5BB /* AppDelegate.h */,
 				8509FFDC15A9C0990089C5BB /* AppDelegate.m */,
+				85027E9415A9D833003C535A /* sss.h */,
+				85027E9515A9D833003C535A /* sss.m */,
 				8509FFD315A9C0990089C5BB /* Supporting Files */,
 			);
 			path = Test;
@@ -153,6 +158,7 @@
 			files = (
 				8509FFD915A9C0990089C5BB /* main.m in Sources */,
 				8509FFDD15A9C0990089C5BB /* AppDelegate.m in Sources */,
+				85027E9615A9D833003C535A /* sss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +264,7 @@
 				8509FFE215A9C0990089C5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
